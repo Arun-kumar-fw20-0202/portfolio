@@ -1,0 +1,39 @@
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#about > .card{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    /* border: 1px solid white; */
+}
+#about > .card > .imgbx{
+    /* border: 1px solid red; */
+}
+#about > .card > .deta{
+    color: white;
+    /* background: blue; */
+}
+#about > .card > .deta h1{
+    /* text-align: center; */
+    font-size: 40px;
+    padding: 10px 0;
+    border-bottom: 3px solid aqua;
+    width: 200px;
+}
+#about > .card > .deta p{
+    width: 80%;
+    line-height: 30px;
+    text-align: start;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+#about > .card > .deta p > span{
+    color: #009f55
+}

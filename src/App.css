@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #0c141b;
+}
+.App{
+  min-height: 100vh;
+  width: 100%;
+}
+.App > section{
+  position: relative;
+}
+.App > section::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 120;
+  background-color: blue;
+}
+.pages{
+  min-height: 100vh;
+  /* width: 100%; */
+  /* border: 1px solid black */
+}
+.pages:nth-child(2){
+  /* background: red */
+}
+.pages:nth-child(3){
+  /* background: yellow */
+}
+.pages:nth-child(4){
+  /* background: green */
+}
+.pages:nth-child(5){
+  /* background: blue */
+}

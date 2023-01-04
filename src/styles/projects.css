@@ -1,0 +1,75 @@
+#projects{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: sans-serif;
+}
+#projects > h1{
+    line-height: 0;
+    color: white;
+}
+#projects > .card{
+    width: 80%;
+    min-height: 220px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 171, 137);
+}
+#projects > .card > .imgBx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#projects > .card:hover > .imgBx > img{
+    transform: scale(1.05);
+}
+#projects > .card > .imgBx > img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+#projects > .card > .data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+#projects > .card > .data > h1{
+    color: white;
+}
+#projects > .card > .data > h1 > span{
+    color: rgb(0, 171, 137);
+}
+#projects > .card > .data > p{
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #a3a3a3;
+}
+#projects > .card > .data > .lang{
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-weight: 900;;
+}
+#projects > .card > .data > .links{
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+#projects > .card > .data > .links > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
