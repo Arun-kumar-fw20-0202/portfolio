@@ -1,13 +1,13 @@
 #home{
     position: relative;
     min-height: 80vh;
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
     font-family: sans-serif;
-    background-color: #0c141b;
+    /* background-color: #0c141b; */
+    /* background-color: rgba(0,0,0,0.5); */
 }
 #home > .box{
     position: relative;
@@ -15,10 +15,19 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 10px;
+    width: 25%;
+    height: 450px;
     /* border: 1px solid white; */
 }
+#home > .box:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #home > .box:first-child{
-    width: 70%;
+    /* background-color: rgba(0,0,0,0.5); */
+    /* padding: 50px 20px; */
+    width: 65%;
 }
 #home > .box > .data{
     /* border: 1px solid lime; */
@@ -27,13 +36,15 @@
 #home > .box > .data > p{
     width: 80%;
     line-height: 35px;
-    font-size: 30px;
+    font-size: 25px;
     color: #ccc;
+    color: white;
 }
 #home > .box > .data > h2{
     line-height: 0;
     font-size: 30px;
     color: #ccc;
+    color: white;
 }
 #home > .box > .data > h1{
     font-size: 50px;
@@ -41,11 +52,14 @@
 #home > .box > .data > a >button{
     padding: 10px 40px;
     background: none;
-    background:linear-gradient(120deg,rgba(120, 142, 255, 0.667),rgba(249, 229, 127, 0.667));
     font-size: 18px;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #home > .box > .icons{
@@ -56,7 +70,7 @@
 #home > .box > .imgbx{
     position: relative;
     /* width: 350px; */
-    height: 300px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,49 +80,81 @@
 #home > .box > .imgbx::before{
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 0; */
+    /* left: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100% + 0px);
-    width: calc(100% + 0px);
-    background: linear-gradient(45deg, aqua, lime, hotpink,#32CD32,#98FB98,aqua, lime, hotpink,#32CD32,#98FB98,aqua, lime, hotpink,#32CD32,#98FB98);
-    background-size: 12000px;
+    height: calc(100% + 10px);
+    width: calc(100% + 10px);
+    border-left: 2px solid yellow;
+    border-bottom: 2px solid yellow;
     animation: glow 20s linear infinite;
     /* border: 1px solid lime; */
 }
 #home > .box > .imgbx::after{
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 0; */
+    /* left: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100% + 0px);
-    width: calc(100% + 0px);
-    background: linear-gradient(45deg, aqua, lime, hotpink,#32CD32,#98FB98,aqua, lime, hotpink,#32CD32,#98FB98,aqua, lime, hotpink,#32CD32,#98FB98);
-    background-size: 12000px;
-    filter: blur(50px);
+    height: calc(100% + 10px);
+    width: calc(100% + 10px);
+    border-top: 2px solid purple;
+    border-right: 2px solid purple;
     z-index: -1;
     animation: glow 20s linear infinite;
-    /* border: 1px solid lime; */
 }
 @keyframes glow {
     0%{
         background-position: 00;
     }
     50%{
-        background-position: 2500px;
+        background-position: 1000px;
     }
     100%{
-        background-position: 4000px;
+        background-position: 400px;
     }
 }
 #home > .box > .imgbx > img{
     position: relative;
     width: 98%;
     height: 98%;
-    /* object-fit: cover; */
+    background-color: rgb(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+
+
+@media only screen and (max-width: 800px){
+    #home{
+        /* position: relative; */
+        padding: 20px 0;;
+        gap: 20px;
+        flex-direction: column;
+    }
+    #home > .box:first-child{
+        width: 90%;
+        padding: 20 40px;
+    }
+    #home > .box > .data h1,
+    #home > .box > .data h2{
+        line-height: 0;
+    }
+    #home > .box > .data{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid #fff; */
+    }
+    #home > .box{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid #fff; */
+    }
 }

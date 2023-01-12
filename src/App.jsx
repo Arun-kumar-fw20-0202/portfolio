@@ -6,20 +6,34 @@ import Home from './pages/home'
 import Projects from './pages/projects'
 import Contact from './pages/contact'
 import AboutUs from './pages/about'
+import 'font-awesome/css/font-awesome.min.css';
+import Skills from './pages/skills'
+
 
 function App() {
+  const [loading, setLoading] = useState(true)
+
+  setTimeout(function(){
+    setLoading(false)
+  },2000)
+
+
   return (
     <>
-    <head>
-      <link rel = "icon" type = "image/png" href = "https://avatars.githubusercontent.com/u/104296654?s=400&u=35ab61832ef8d4889107f891fd9a9469bb49dd0f&v=4" />
-    </head>
       <div className="App">
         <section></section>
-      <Navbar />
-      <Home />
-      <AboutUs />
-      <Projects />
-      <Contact />
+        {
+          loading ?             
+              <h1>Loading...</h1> 
+          :<>
+              <Navbar />
+              <Home />
+              <AboutUs />
+              <Skills />
+              <Projects />
+              <Contact />
+            </>
+          }
       </div>
     </>
   )

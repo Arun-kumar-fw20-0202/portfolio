@@ -20,8 +20,8 @@ function Projects (){
           <div className="lang">
             <span>React</span>
             <span>HTML</span>
-            <span>CSS</span>
             <span>JavaScript</span>
+            <span>CSS</span>
             <span>Chakra UI</span>
           </div>
           
@@ -46,8 +46,8 @@ function Projects (){
           <div className="lang">
             <span>React</span>
             <span>HTML</span>
-            <span>CSS</span>
             <span>JavaScript</span>
+            <span>CSS</span>
             <span>Chakra UI</span>
           </div>
           <div className="links">
