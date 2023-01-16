@@ -8,6 +8,7 @@ import Contact from './pages/contact'
 import AboutUs from './pages/about'
 import 'font-awesome/css/font-awesome.min.css';
 import Skills from './pages/skills'
+import Githubs from './pages/githubs'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
               <AboutUs />
               <Skills />
               <Projects />
+              <Githubs />
               <Contact />
             </>
           }

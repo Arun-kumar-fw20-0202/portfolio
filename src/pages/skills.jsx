@@ -5,6 +5,7 @@ import "../styles/skills.css"
 function Skills(){
   return (
     <div id="skills" className="skills">
+        <h1>Skills</h1>
         <div className="box">
             <div className="items">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

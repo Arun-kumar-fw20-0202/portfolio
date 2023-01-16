@@ -1,19 +1,26 @@
 .skills{
     font-family: sans-serif;
     position: relative;
-    min-height: 80vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    /* margin-bottom: 150px; */
+    /* gap: 120px; */
     /* margin-bottom: 50px; */
     /* background: blue; */
     /* background: rgba(0,0,0,0.5); */
     /* border: 1px solid red; */
 }
+.skills > h1{
+    color: white;
+    font-size: 50px;
+}
 
 .skills > .box{
     height: 50%;
-    /* width: 100%; */
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -47,7 +54,7 @@
     border-radius: 50%;
     height: 30%;
     width: 30%;
-    transition: 0.5s ease-in;
+    transition: 0.5s;
 }
 .skills > .box > .items:nth-child(1)::before{
     background-color: aquamarine;
@@ -59,7 +66,7 @@
     background-color: blue;
 }
 .skills > .box > .items:nth-child(4)::before{
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
 }
 .skills > .box > .items:nth-child(5)::before{
     background-color: royalblue;
@@ -87,7 +94,7 @@
 
 @media only screen and (max-width: 900px){
     .skills {
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
     .skills > .box{
         flex-wrap: wrap;
