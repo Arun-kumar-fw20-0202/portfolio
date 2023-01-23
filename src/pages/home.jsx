@@ -18,9 +18,8 @@ function Home (){
         </div>
         <div className="box">
             <div className="imgbx">
-                {/* <img src="https://avatars.githubusercontent.com/u/104296654?s=400&u=35ab61832ef8d4889107f891fd9a9469bb49dd0f&v=4" alt="" /> */}
-                {/* <img src="https://i.ibb.co/2YzpTT2/Whats-App-Image-2023-01-04-at-2-27-49-PM-removebg-preview.png" alt="" /> */}
-                <img src="https://i.ibb.co/6PfJhTP/Arun-Kumar-fw20-0202.jpg" alt="" />
+                <img src="https://i.ibb.co/2YzpTT2/Whats-App-Image-2023-01-04-at-2-27-49-PM-removebg-preview.png" alt="" />
+                {/* <img src="https://i.ibb.co/6PfJhTP/Arun-Kumar-fw20-0202.jpg" alt="" /> */}
             </div>
         </div>
     </div>

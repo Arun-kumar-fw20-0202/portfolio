@@ -6,6 +6,32 @@ function Projects (){
 
     <div id="projects" className="pages">
       <h1>Thing I've Developed</h1>
+
+    
+      <div className="card">
+        <div className="imgBx">
+          <img src="https://i.ibb.co/31CjHDW/image.png" alt="" />
+        </div>
+        <div className="data">
+          <h1>Clone of <span>"Firstcry"</span></h1>
+          <p>
+            Buy diapers, toys, clothes, car seats, strollers & much more. BEST 24/7 Customer Service, Shipping available across India. & Cash on Delivery available!
+          </p>
+          <div className="lang">
+            <span>React</span>
+            <span>HTML</span>
+            <span>JavaScript</span>
+            <span>CSS</span>
+            <span>Chakra UI</span>
+          </div>
+          
+          <div className="links">
+            <a href="https://github.com/Arun-kumar-fw20-0202/first-cry"><i className="fa fa-github"></i></a>
+            <a href="https://firstcry-omega.vercel.app/"><i className="fa fa-external-link"></i></a>
+          </div>
+        </div>
+      </div>
+    {/*  */}
     <div className="card">
         <div className="imgBx">
           <img src="https://i.ibb.co/hDKzc84/Screenshot-20230103-054519.png" alt="" />
@@ -31,7 +57,7 @@ function Projects (){
           </div>
         </div>
       </div>
-      
+      {/*  */}
       <div className="card">
         <div className="imgBx">
           <img src="https://i.ibb.co/JnXXCHY/Screenshot-20230103-054558.png" alt="" />
@@ -56,6 +82,7 @@ function Projects (){
           </div>
         </div>
       </div>
+      {/*  */}
 
     </div>
   )
