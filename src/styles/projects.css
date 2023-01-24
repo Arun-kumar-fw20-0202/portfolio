@@ -7,7 +7,6 @@
     gap: 50px;
     padding: 50px 0;
     font-family: sans-serif;
-    /* border: 1px solid white; */
 }
 #projects > h1{
     color: white;
@@ -29,7 +28,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
 }
 #projects > .card:hover > .imgBx > img{
     transform: scale(1.05);
@@ -48,7 +46,6 @@
     flex-direction: column;
     align-items: flex-end;
     text-align: end;
-    /* border: 5px solid royalblue; */
 }
 #projects > .card > .data > h1{
     color: white;
@@ -69,7 +66,6 @@
     color: white;
     font-weight: 900;
     flex-wrap: wrap;
-    /* border: 1px solid purple; */
 }
 #projects > .card > .data > .links{
     display: flex;
