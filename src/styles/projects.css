@@ -10,7 +10,7 @@
     /* border: 1px solid white; */
 }
 #projects > h1{
-    line-height: 0;
+    /* line-height: 0; */
     color: white;
 }
 #projects > .card{
@@ -91,6 +91,12 @@
     #projects > .card{
         left: 8px;
         flex-direction: column;
+    }
+    #projects > h1{
+        border: 1px solid #fff;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
     }
     #projects > .card > .data > h1{
         font-size: 30px;
