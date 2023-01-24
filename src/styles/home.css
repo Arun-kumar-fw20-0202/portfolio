@@ -139,7 +139,16 @@
         width: 90%;
         padding: 20 40px;
     }
-    #home > .box > .data h1,
+    #home > .box > .data p{
+        position: relative;
+        width: 100%;
+        left: 15px;
+        /* border: 1px solid #fff; */
+    }
+    #home > .box > .data h1{
+        font-size: 30px;;
+        text-align: start;
+    }
     #home > .box > .data h2{
         line-height: 0;
     }
