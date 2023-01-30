@@ -14,7 +14,7 @@ function Navbar(){
 	})
 
     return (
-        <header>
+        <header id="nav-menu">
 			<i className="fa fa-arrow-right showHead"></i>
 			<ul>
 				<a href="#home">

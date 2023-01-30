@@ -75,6 +75,11 @@
     align-items: center;
     justify-content: center;
     z-index: 5;
+    /* overflow: hidden; */
+    background-image: url(https://i.ibb.co/3NCh0jw/image-removebg-preview-1.png);
+    background-size: 100%;
+    /* background-position: start; */
+    background-repeat: no-repeat;
     /* background-color: blue; */
 }
 #home > .box > .imgbx::before{
@@ -121,7 +126,8 @@
 #home > .box > .imgbx > img{
     position: relative;
     width: 98%;
-    height: 98%;
+    visibility: hidden;
+    height: 120%;
     background-color: rgb(255,255,255,0.1);
     backdrop-filter: blur(10px);
 }

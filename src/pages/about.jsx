@@ -3,7 +3,7 @@ import "../styles/about.css"
 
 function AboutUs (){
     return (
-      <div id="about" className="pages">
+      <div id="about" class="about section" className="pages">
         <div className="card">
           <div className="imgbx">
             <img src="https://media2.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="" />
